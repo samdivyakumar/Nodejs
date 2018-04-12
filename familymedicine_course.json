@@ -1,0 +1,106 @@
+/* DFID Course Details */
+
+{
+	"course_subject":"Family Medicine",
+	"course_name":"Masters in Medicine",
+	"course_short_name":"MMED",
+	"course_start_date":"",
+	"duration": {
+		"period_type": "year",
+		"period_count": 2
+	},
+	"extension": {
+		"extension_available": true,
+		"extension_period": {
+			"period_type": "year",
+			"period_count": 2
+		}
+	},
+	"admission_start_date":"",
+	"admssion_end_date":"",
+	"final_selection_date":"",
+
+	"fees": [		
+		{ 
+			"fees_description":"", 			
+			"fees_type":"", 						/* course, exam, convocation, post_registration */
+			"fees_amount": "",					/* actual rupee amount */
+			"fees_last_date":"",
+			"fees_currency":"",					/* USD, SAARC and rupees */
+			"sponsored": true,					
+		}
+	],
+	"academics": {
+		"attendance": [
+			{ 
+				"contact_program_name": "First Contact Program",
+				"contact_program_start_date":"",
+				"contact_program_end_date":"",
+				"cp_days": [
+					{ 
+						"cp_day_description":"First Day DFID",					/* Calendar widget */
+					},
+					{
+						"cp_day_description":"Second Day DFID",					/* Calendar widget */
+					}
+
+				]
+			},
+			{ 
+				"contact_program_name": "Second Contact Program",
+				"contact_program_start_date":"",
+				"contact_program_end_date":"",
+				"cp_days": [
+					{ 
+						"cp_day_label":"",					/* Drop down from course details */
+						"present_am": true,
+						"present_pm": false
+					}
+				]
+			}
+		],
+		"assignments": [
+			{
+				"assignment_label": "Module 1 - First assignment",
+				"assignment_category": "End of Day", 	/* Example: Project, Log Books, End of Day */
+				"assignment_submitted": true,
+				"assignment_submission_date": "",
+				"assignment_grade": "",
+				"online_submission": true,
+				"post_submission": false,
+				"inperson_submission": false
+			},
+			{
+				"assignment_label": "Module 1 - Second assignment",
+				"assignment_submitted": true,
+				"assignment_submission_date": "",
+				"assignment_grade": ""
+			}
+		],
+		"examinations": [
+			{
+				"exam_type":"",										/* Regular, supplementary, practical, OSCE */
+				"exam_description": "Pre-test",
+				"exam_eligible": true,						/* Can they attend - algorithm required */
+				"exam_attended": true,						
+				"exam_grade": ""
+			}
+		]
+	},
+	"documentation": [],
+	"shipments": [],
+	"communications": [],
+	"graduation":{},
+	"sales":[],
+	"requests":[
+		{
+			"slots": [ 
+				{
+					"slot_request_sequence_number":"",					/* should it go under contact programs */
+					"slot_allocated": true
+				}
+			]
+
+		}
+	]
+}
